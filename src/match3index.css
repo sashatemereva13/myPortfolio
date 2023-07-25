@@ -1,0 +1,47 @@
+.title,
+.match3game-score,
+.match3game-heading {
+  font-family: "Exo 2", sans-serif;
+  padding-top: 3rem;
+  margin-top: 1rem;
+}
+.title {
+  padding-bottom: 2rem;
+}
+.match3game-score {
+  font-size: 3rem;
+  color: #fffcd1;
+  padding-right: 3rem;
+}
+
+.match3game-heading {
+  font-size: 6rem;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.game {
+  width: 32rem;
+  height: 32rem;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #194f7c;
+  padding: 3rem;
+  z-index: 3;
+}
+.game-score {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.score-board {
+  position: relative;
+  padding-right: 3rem;
+  padding-top: 3rem;
+}
+.game img {
+  width: 4rem;
+  height: 4rem;
+}

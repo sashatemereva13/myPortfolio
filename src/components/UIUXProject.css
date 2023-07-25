@@ -1,0 +1,131 @@
+body {
+  background-color: #373737;
+}
+
+.goBackButtonLine {
+  height: 8rem;
+}
+#goBackButton {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  color: #6f6f6f;
+
+  font-size: 1.5rem;
+}
+.spanAbout {
+  color: #8b8b8b;
+  display: block;
+  font-size: 1.7rem;
+}
+.UIUXProject {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.UIUXProject_introduction {
+  margin: 3rem;
+}
+
+.UIUXProject_introduction p {
+  font-size: 1.5rem;
+  margin-top: 0;
+  color: #f7a265;
+}
+.textFlex p {
+  color: #4d83ab;
+}
+.skyfi-img {
+  width: 100%;
+}
+#skyfi {
+  margin-top: 10rem;
+  font-size: 1rem;
+  padding-left: 3rem;
+  color: rgb(74, 93, 107);
+  max-width: 200ch;
+}
+h4 {
+  font-size: 7rem;
+  font-family: "Exo 2", sans-serif;
+  color: #4d83ab;
+  margin-bottom: 1rem;
+}
+.visualiseHeading {
+  margin-top: 3rem;
+  color: #f7a265;
+}
+h5 {
+  font-size: 3rem;
+  font-family: "Exo 2", sans-serif;
+  color: #f7a265;
+}
+.textFlex {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.4rem;
+}
+.wireframe {
+  max-width: 25rem;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 4 (repeat, 1fr);
+  gap: 3rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+.projectGoals,
+.researchMethods {
+  display: flex;
+  flex-direction: column;
+}
+.wireframes {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+@media screen and (max-width: 475px) {
+  .spanAbout {
+    font-size: 1rem;
+  }
+  #skyfi {
+    font-size: 0.7rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  h4 {
+    font-size: 2rem;
+  }
+  #goBackButton {
+    font-size: 0.5rem;
+  }
+  .UIUXProject_introduction {
+    font-size: 1rem;
+  }
+
+  .wireframes {
+    display: flex;
+    flex-direction: column;
+  }
+  .wireframe {
+    max-width: 15rem;
+  }
+}
+.thoughts {
+  padding-top: 10rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.thoughts p {
+  font-size: 1.3rem;
+  color: #4d83ab;
+}

@@ -1,0 +1,73 @@
+.footer-nav {
+  padding-top: 7rem;
+  padding-bottom: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 4rem;
+  font-size: 1rem;
+  z-index: 10;
+  position: relative;
+}
+ul.footer-list {
+  display: grid;
+  gap: 1rem;
+  grid-template-rows: repeat(5, 1fr);
+}
+.footer-nav-item {
+  cursor: pointer;
+}
+.footer-nav-home {
+  grid-column: 1;
+  grid-row: 1;
+}
+.footer-nav-skills {
+  grid-column: 1;
+  grid-row: 2;
+}
+.footer-nav-projects {
+  grid-column: 1;
+  grid-row: 3;
+}
+.footer-nav-contacts {
+  grid-column: 1;
+  grid-row: 4;
+}
+.footer-nav-about {
+  grid-column: 1;
+  grid-row: 5;
+}
+.footer-nav-item a {
+  color: white;
+}
+.footer-nav-item a:hover {
+  color: plum;
+}
+div.footer_social {
+  gap: 0.5rem;
+  display: grid;
+  grid-column: 2;
+}
+.footer-social-linkedin {
+  grid-column: 2;
+  grid-row: 1/5;
+}
+.footer-social-mail {
+  grid-column: 2;
+  grid-row: 6/10;
+}
+.footer-social-github {
+  grid-column: 2;
+  grid-row: 11/15;
+}
+div.footer-CV {
+  display: grid;
+  grid-column: 3;
+  grid-row: 5;
+}
+@media screen and (max-width: 500px) {
+  .footer-nav {
+    gap: 1rem;
+  }
+}

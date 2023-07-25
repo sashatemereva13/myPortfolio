@@ -1,0 +1,71 @@
+.light {
+  background-color: #d2691e;
+}
+.light .nav_link {
+  color: #ff9d4e;
+}
+.light .nav_link:hover {
+  color: #fac79d;
+}
+.light #sasha {
+  color: #fac79d;
+}
+.light .logo {
+  color: #994f15;
+}
+.light h1 {
+  color: #fac79d;
+}
+.light h3 {
+  color: #994f15;
+}
+.light h4,
+h5 {
+  color: #ff9d4e;
+}
+.light .textFlex p {
+  color: #fac79d;
+}
+
+.light #lightSwitch {
+  background-color: #994f15;
+}
+
+.light #skyfi {
+  color: #994f15;
+}
+.light .UIUXProject_introduction {
+  color: #fac79d;
+}
+
+.dark #lightswitch {
+  background-color: #303030;
+}
+.light .LinkedIn a:hover {
+  color: white;
+}
+.light .LinkedIn a,
+.light .mail a,
+.light .github a {
+  color: #fac79d;
+}
+.light button:hover {
+  border-color: #fac79d;
+}
+.light button:focus,
+.light button:focus-visible {
+  border-color: #fac79d;
+  color: #5bb9b8;
+}
+.light .download-button {
+  background-color: #994f15;
+  color: #fac79d;
+}
+.dark .active .bar,
+.light .active .bar {
+  background-color: #373737;
+}
+
+.dark {
+  background-color: #373737;
+}
